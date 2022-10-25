@@ -76,7 +76,7 @@ By using this api end point you can get infromation about the specifyed username
 
 **cURL Example**
 
-    curl --location --request GET 'http://fanaprotocol.ruqad.com/api/v1/channel/get_info' \
+    curl --location --request GET ' https://fanaprotocol.herokuapp.com/api/v1//channel/get_info' \
     --header 'api_key: abcdefg-hijklmn-opqrstu-vwxyzab' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -92,10 +92,10 @@ By using this api end point you can get infromation about the specifyed username
     
     var config = {
       method: 'get',
-      url: 'http://fanaprotocol.ruqad.com/api/v1/channel/get_info',
+      url: ' https://fanaprotocol.herokuapp.com/api/v1/channel/get_info',
       headers: { 
         'api_key': 'abcdefg-abcdefg-asdasdd-asdaasd', 
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json
       },
       data : data
     };
@@ -163,7 +163,7 @@ By using this api end point you can ger the last 10 message from the specified c
 
 **cURL Example**
 
-    curl --location --request GET 'http://fanaprotocol.ruqad.com/api/v1/channel/get_info' \
+    curl --location --request GET 'https://fanaprotocol.herokuapp.com/api/v1/channel/get_info' \
     --header 'api_key: abcdefg-hijklmn-opqrstu-vwxyzab' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -180,7 +180,7 @@ By using this api end point you can ger the last 10 message from the specified c
     
     var config = {
       method: 'get',
-      url: 'http://fanaprotocol.ruqad.com/api/v1/channel/get_info',
+      url: 'https://fanaprotocol.herokuapp.com/api/v1/channel/get_info',
       headers: { 
         'api_key': 'ODIPT4Q-M3YUIPQ-S6JI7VY-BIP632Q', 
         'Content-Type': 'application/json'
