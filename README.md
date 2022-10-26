@@ -49,7 +49,7 @@ If you get to this point you are registered and you have your API KEY.
 
 ## Passing you API-KEY
 
-All your requests must have an `api-key: abcdefg-hijklmn-opqrstu-vwxyzbt` in the request header. To test you api you can send a `Get` request to our  [https://fanaprotocol.herokuapp.com/api/v1/](https://fanaprotocol.herokuapp.com/api/v1/)
+All your requests must have an `token: abcdefg-hijklmn-opqrstu-vwxyzbt` in the request header. To test you api you can send a `Get` request to our  [https://fanaprotocol.herokuapp.com/api/v1/](https://fanaprotocol.herokuapp.com/api/v1/)
 
 
 
